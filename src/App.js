@@ -8,14 +8,11 @@ function App() {
 
   
 
-  return (
-    <div className="App">
-      <div className="calculator-containt">
+  return (<div className="calculator-containt">
       
       <Calculator/>
-
       </div>
-   </div>
+  
   );
 }
 

@@ -5,7 +5,6 @@
   
   margin: 0px auto;
   background-color: rgba(8, 8, 8, 0.6);
-  margin-top: 5%;
   height:500px;
   border: 2px solid rgb(175, 173, 173);
   border-radius: 5px;
@@ -100,36 +99,18 @@ button:hover{
 
 
 
-@media (max-width:720px){
-  .calculator-containt{
-    width: 100%;
-    height: 100vh;
-    margin: 0px;
-  }
-  .calculator-containt .output{
-    margin-top: 60px;
-  }
-  .contain-buttons{
-    height: 60%;
-    margin-top: 50px;
-  }
-  .contain-buttons button{
-    font-size: 35px;
-  }
-  .output .anterior{
-    font-size: 40px;
-  }
-  .output .actual{
-    font-size: 3.125rem;
-  }
+@media (max-width:700px){
+.calculator-containt{
+  height: 100vh;
+  width: 70%;
+}
 }
 
 @media (max-width:500px){
-  .calculator-containt{
-    height: 440px;
-  }
+  
+  
   .contain-buttons button{
-    font-size: .9375rem;
+    font-size: 1.25rem;
   }
   .contain-buttons{
     height: 60%;
@@ -146,11 +127,9 @@ button:hover{
  
   .calculator-containt{
     width: 100% ;
-    margin:0px auto;
+    margin:0;
     height: 100vh;
     background-color: rgb(44, 43, 43);
-    margin-top: 0px;
-    
   }
   .contain-buttons{
     width: 95%;
@@ -167,7 +146,7 @@ button:hover{
 @media (max-width:375px){
  
   .calculator-containt{
-    height:550px;
+    height:100vh;
    
   }
   .contain-buttons{

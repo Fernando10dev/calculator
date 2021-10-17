@@ -1,11 +1,14 @@
-
+*{
+  margin: 0;
+}
     body{
   
-        background: #AAA6AD;
-      background: -webkit-linear-gradient(bottom, #AAA6AD, #1B3C72);
-      background: -moz-linear-gradient(bottom, #AAA6AD, #1B3C72);
-      background: linear-gradient(to top, #AAA6AD, #1B3C72);
-        background-attachment:fixed;
-        
-      }
+      background: #654ea3;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      background-attachment: fixed;
+      
+    }
+    
       
