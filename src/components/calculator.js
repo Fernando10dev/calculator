@@ -26,14 +26,16 @@ function Calculator() {
         setnumber2("")
         setnumber1("")
         setoperador("")
+        setresultado("")
     }
-    const clean= () =>{
-        
-        setnumber1(number1.slice(0,-1)) 
-    }
-    const getresult= () =>{
-        cleanAll()
 
+    const clean= () =>{
+        if(operador === ""){
+        setnumber1(number1.slice(0,-1)) 
+    }else{setnumber2(number2.slice(0,-1))}
+    }
+
+    const getresult= () =>{
         switch (operador){
             case "+": 
             setresultado(parseInt(number1) + parseInt(number2))
@@ -48,7 +50,6 @@ function Calculator() {
             setresultado(parseInt(number1) * parseInt(number2))
             break;
         }
-         
     }
 
     return <>
